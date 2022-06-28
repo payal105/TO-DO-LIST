@@ -198,3 +198,23 @@ input:checked ~ .bubble::after{
     text-decoration: line-through;
     color: var(--gray);
 }
+
+
+@media screen and (min-width: 375px){
+    .todo-list .todo-item {
+        display: flex;
+        align-items: center;
+        background-color: #FFF;
+        width: 50x;
+        padding: 0.2rem;
+        border: 1px solid gray; 
+        border-radius: 0.5rem;
+        box-shadow: var(--shadow);
+        margin-bottom: 1rem;
+   
+    }
+    .todo-item .actions .edit {
+        margin-left: -5rem;
+        background-color: var(--primary);
+    }
+}
