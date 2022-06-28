@@ -200,7 +200,7 @@ input:checked ~ .bubble::after{
 }
 
 
-@media screen and (min-width: 300px){
+@media screen and (min-width: 375px){
     .todo-list .todo-item {
         display: flex;
         align-items: center;
